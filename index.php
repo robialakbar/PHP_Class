@@ -36,5 +36,11 @@ echo $text_1 .''. $text_2;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
-
+/**
+ * Belajar Strings
+ */
+echo "<br>";
+$string = "robi al akbar";
+$output = " {$string} adalah seorang \"Programmer\"";
+echo $output;
 ?>
