@@ -61,5 +61,18 @@ echo "<br>";
 echo "$num_2 is integer";
 echo "<br>";
 echo "$string is String";
+echo "<br>";
+/**
+ * belajar math Operation
+ */
+echo (max(100, -100, 1000, 50,120, 170));       // Looking for the Maximum Value / Mencari Angka Maksimal pada array
+echo "<br>";
+echo (min(1000, 100, 120, -10, 10, 20, 78));    // Looking for the minimum value / Mencari Angka Minimal pada array
+echo "<br>";
+echo (sqrt(64));                                // devide Value / Membagi angka 
+echo "<br>";
+echo (rand(10, 100));                           // Random Value / Mengacak Angka
+ech0 "<br>";
+echo (round(5.8));                              // Rounding value / Membulatkan Angka
 ?>
 
