@@ -131,7 +131,8 @@ echo "</pre>";
 ///////
 
 $nomor = [3, 2, 4, 5, 1];
-sort($nomor);
+//sort($nomor);
+rsort($nomor);
 echo "<pre>";
 echo var_dump($nomor);
 echo "</pre>";
