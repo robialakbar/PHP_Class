@@ -108,6 +108,33 @@ echo '<pre>';
 echo var_dump($odd_numbers);
 echo '</pre>';
 
+/**
+ * Belajar Array Function
+ */
+$num = [1, 2, 3, 4];
+//array_push($num, 5);
+//array_pop($num);
+array_unshift($num, 0);
+echo "<pre>";
+var_dump($num);
+echo "</pre>";
+
+///////
+
+$odd_numbers = [1, 3, 5, 7, 9];
+$even_numbers =[2, 4, 6, 8, 10];
+$all_numbers = array_merge($odd_numbers, $even_numbers);
+echo "<pre>";
+echo var_dump($all_numbers);
+echo "</pre>";
+
+///////
+
+$nomor = [3, 2, 4, 5, 1];
+sort($nomor);
+echo "<pre>";
+echo var_dump($nomor);
+echo "</pre>";
 ?>
 
 
