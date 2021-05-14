@@ -136,6 +136,17 @@ rsort($nomor);
 echo "<pre>";
 echo var_dump($nomor);
 echo "</pre>";
+
+
+///////
+// Variable array Key Value
+
+$phone_numbers = [
+    "robi al akbar" => "0878-9627-7896",
+    "Imran Arsyad"  => "0898-0987-5748"
+];
+echo var_dump($phone_numbers);
+
 ?>
 
 
