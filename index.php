@@ -72,7 +72,14 @@ echo "<br>";
 echo (sqrt(64));                                // devide Value / Membagi angka 
 echo "<br>";
 echo (rand(10, 100));                           // Random Value / Mengacak Angka
-ech0 "<br>";
+echo "<br>";
 echo (round(5.8));                              // Rounding value / Membulatkan Angka
+echo "<br>";
+/**
+ * Belajar Constant / Learning Constant
+ */
+define ("username", "robi al akbar",TRUE);
+echo username;
+
 ?>
 
