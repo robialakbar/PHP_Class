@@ -92,6 +92,22 @@ echo $third;
 echo "<br>";
 
 echo trim($third);
+echo "<br>";
+
+/**
+ * Belajar Array / Learning Array
+ */
+$odd_numbers = [1, 3, 5, 7, 9];
+
+$first_odd_number = $odd_numbers[0];
+$second_odd_number = $odd_numbers[1];
+
+echo "the first number of odd is $first_odd_number <br>";
+echo " the second number of odd is $second_odd_number <br>";
+echo '<pre>';
+echo var_dump($odd_numbers);
+echo '</pre>';
 
 ?>
+
 
