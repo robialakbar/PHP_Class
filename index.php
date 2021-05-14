@@ -143,9 +143,13 @@ echo "</pre>";
 
 $phone_numbers = [
     "robi al akbar" => "0878-9627-7896",
-    "Imran Arsyad"  => "0898-0987-5748"
+    "puyono santoso" => "0878-9627-8988"
 ];
-echo var_dump($phone_numbers);
+//$phone_numbers["joe biden"] = "087896277777";
+//$phone_numbers["Alex Santoso"] = " 0878-96277877";
+//echo var_dump($phone_numbers);
+//echo var_dump(array_keys ($phone_numbers));
+echo var_dump(array_values($phone_numbers));
 
 ?>
 
