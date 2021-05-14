@@ -81,5 +81,17 @@ echo "<br>";
 define ("username", "robi al akbar",TRUE);
 echo username;
 
+/**
+ *  Belajar Strings Function
+ */
+echo "<br>";
+$first = "First Text  ";
+$second = " second Text";
+$third = $first;
+echo $third;
+echo "<br>";
+
+echo trim($third);
+
 ?>
 
