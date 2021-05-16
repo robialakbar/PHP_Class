@@ -348,6 +348,34 @@ switch($favcolor){
         echo " Your Color Neither Blue, read , Etc";
 }
 
+/**
+ * Belajar Loops
+ */
+//While Loops
+$x = 0;
+while($x <= 10){
+    
+    echo " $x Hello World <br>";
+    $x++;{
+        if($x == 5)
+        echo " the condition is 5 <br>";
+        continue;
+    }
+    
+}
+
+//Do While
+$y = 0;
+do {
+    echo " $y Hello World <br>";
+    $y++;
+    if ( $y == 5){
+        echo " $y is 5 <br>";
+        continue;
+    }
+} while ($y < 10);
+
+
 ?>
 
 
