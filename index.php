@@ -375,6 +375,29 @@ do {
     }
 } while ($y < 10);
 
+/**
+ * Belajar function
+ */
+echo "<br>";
+function nama(){
+    echo " robi al akbar";
+}
+
+nama();
+
+function pekekrjaan(){
+    echo " Saya adalah seorang Programmer";
+}
+pekekrjaan();
+
+
+function hitung($x, $y){
+    while ($x < $y){
+        echo "$x Hello world <br>";
+        $x++;
+    }
+}
+hitung(1, 10);
 
 ?>
 
