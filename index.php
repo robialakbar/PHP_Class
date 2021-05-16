@@ -332,7 +332,21 @@ if (is_int($user_Input)){
     else{
         echo "error Mas Bro";
     }
-
+/**
+ * Belajar Switch Case
+ */
+echo "<br>";
+$favcolor = "45";
+switch($favcolor){
+    case "red":
+        echo " Your Color is Red !";
+        break;
+    case "blue":
+        echo " Your color is Blue !";
+        break;
+    default :
+        echo " Your Color Neither Blue, read , Etc";
+}
 
 ?>
 
